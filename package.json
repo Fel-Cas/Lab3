@@ -4,7 +4,7 @@
   "description": "operaciones básicas",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,8 @@
   },
   "homepage": "https://github.com/Fel-Cas/Lab3#readme",
   "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
     "readline-sync": "^1.4.10"
   }
 }
